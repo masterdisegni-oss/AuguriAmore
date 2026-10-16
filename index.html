@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8eee8">
+  <title>Un piccolo regalo per te ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="hearts" aria-hidden="true">♡　✿　♡　✧　♡</div>
+
+  <main>
+    <!-- INTRODUZIONE -->
+    <section id="intro" class="screen active">
+      <article class="letter">
+        <div class="small-label">UN PICCOLO REGALO PER TE</div>
+        <div class="flower">✿</div>
+        <h1>Ehi amore mio ♡</h1>
+
+        <p>
+          Ti ho fatto questo piccolo regalino.
+        </p>
+        <p>
+          Siccome ti piaceva l'idea di una raccolta di foto,
+          ho deciso di fare un sito tutto nostro, dove occasionalmente farò degli aggiornamenti :P.
+        </p>
+        <p>
+          Buon compleanno cucciola 🥰
+        </p>
+        <p>Spero ti piaccia. ♡</p>
+
+        <button id="start" class="primary">
+          Apri il tuo regalino ♡
+        </button>
+      </article>
+    </section>
+
+    <!-- COPERTINA -->
+    <section id="cover" class="screen">
+      <div class="cover-book">
+        <div class="cover-decoration">✿ ♡ ✿</div>
+        <img
+          src="images/copertina.jpg"
+          alt="La nostra fotografia"
+          class="cover-photo"
+        >
+        <p class="eyebrow">PER TE, AMORE MIO</p>
+        <h1>Dove tutto è iniziato</h1>
+        <p class="cover-subtitle">
+          Sei sempre stata bellissina, <u>anche dal primo giorno</u>.
+        </p>
+        <button id="openBook" class="primary">
+          Apri il nostro libro ♡
+        </button>
+        <div class="cover-bottom">FATTO CON AMORE · ♡</div>
+      </div>
+    </section>
+
+    <!-- LIBRETTO -->
+    <section id="book" class="screen">
+      <div class="book-heading">
+        <p class="eyebrow">IL NOSTRO PICCOLO ALBUM</p>
+        <h2>Ricordi da custodire ♡</h2>
+      </div>
+
+      <div id="bookSpread" class="book-spread">
+        <article class="page left-page" id="leftPage"></article>
+        <div class="spine" aria-hidden="true"></div>
+        <article class="page right-page" id="rightPage"></article>
+      </div>
+
+      <div class="book-controls">
+        <button id="prev" class="nav-button" aria-label="Pagina precedente">
+          ← Indietro
+        </button>
+        <span id="counter">Ricordo 1 di 4</span>
+        <button id="next" class="nav-button">
+          Avanti ♡ →
+        </button>
+      </div>
+
+      <button id="backCover" class="text-button">
+        Torna alla copertina
+      </button>
+    </section>
+
+    <!-- FINALE -->
+    <section id="final" class="screen">
+      <article class="final-card">
+        <div class="flower">✿ ♡ ✿</div>
+        <img
+          src="images/immagine12.jpeg"
+          alt="Uo specialen nostro ricord"
+          class="final-photo"
+        >
+        <p class="eyebrow">Foto belina per concludere :P</p>
+        <h1>Tanti auguri,<br>amore mio ♡</h1>
+        <p class="final-message">
+          Spero che la vita ti regali tantissimi motivi per sorridere.
+          E spero di essere lì con te, a viverne il più possibile.
+          Grazie per tutti i momenti belli che mi regali.
+          Questo è solo un piccolo pezzetto di tutto l'amore che provo per te.
+        </p>
+
+        <button id="surprise" class="secondary">
+          Una cosina ancora... ♡
+        </button>
+
+        <p id="secret" class="secret hidden">
+          Se potessi scegliere ancora, sceglierei te.
+          Buon compleanno, amore mio. Ti voglio bene. ♡
+        </p>
+
+        <button id="restart" class="text-button">
+          ↺ Rivivi il nostro piccolo viaggio
+        </button>
+      </article>
+    </section>
+  </main>
+
+  <footer>I luv uu ♡</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
