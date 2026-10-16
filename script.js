@@ -63,7 +63,7 @@ const memories = [
   {
     left: {
       type: "text",
-      text: "Che carina qua che dormi aww. ♡\n\nSpero di farti sentire amata e sicura ogni volta che siamo assieme, voglio che tu sia felice."
+      text: "Che carina qua che sei appoggiata aww. ♡\n\nSpero di farti sentire amata e sicura ogni volta che siamo assieme, voglio che tu sia felice."
     },
     right: {
       type: "photos",
